@@ -1,11 +1,11 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from ttkthemes import ThemedTk
-from PIL import Image, ImageTk
-import cv2
-import mediapipe as mp
-import numpy as np
-from sklearn.cluster import KMeans
+from ttkthemes import ThemedTk # type: ignore
+from PIL import Image, ImageTk # type: ignore
+import cv2 # type: ignore
+import mediapipe as mp # type: ignore
+import numpy as np # type: ignore
+from sklearn.cluster import KMeans # type: ignore
 
 # Initialisation
 mp_face_mesh = mp.solutions.face_mesh
